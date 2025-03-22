@@ -10,8 +10,6 @@ import matplotlib.image as mpimg
 BSDS_Path = "BSDS300/images/test/"
 OUTPUT_DIR = "segmented_images/"
 
-num_superpixels =  [50, 100, 150, 200, 250, 300, 400, 500]
-
 
 def compute_and_save_images(nspixels):
     with open("BSDS300/iids_test.txt", 'r', encoding='utf-8') as f:
